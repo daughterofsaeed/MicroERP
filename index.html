@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image mapping</title>
+        <h2>Image Mapping in HTML</h2>
+    </head>
+    <style>
+        body{
+            background-color: rgb(228, 167, 97);
+        }
+    </style>
+    <body>
+        <img src="https://www.pexels.com/photo/boy-running-during-sunset-1416736/" usemap="#mapping" width="400" height="412">
+        <map name="mapping">
+            <area shape="circle" coords="121,122,83" href="flowers.jpg" target=-"blank">
+            <area shape="rect" coords="1566,221,218,2 href="girl.jpg" target=-"blank">
+            <area shape="poly" coords="6,72,46,34,46,131" href="lights.jpg" target=-"blank">
+        </map>
+    </body>
+</html>
